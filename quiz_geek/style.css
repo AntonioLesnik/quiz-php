@@ -1,0 +1,71 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,#1f1c2c,#928dab);
+margin:0;
+padding:0;
+color:white;
+}
+
+.container{
+max-width:700px;
+margin:40px auto;
+background:rgba(0,0,0,0.7);
+padding:30px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+p{
+margin-top:15px;
+}
+
+label{
+display:block;
+margin:5px 0;
+cursor:pointer;
+}
+
+input[type="text"]{
+width:100%;
+padding:10px;
+border-radius:6px;
+border:none;
+margin-top:5px;
+margin-bottom:15px;
+}
+
+.botao{
+display:inline-block;
+background:#00c6ff;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+padding:12px 20px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+border:none;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+}
+
+.botao:hover{
+transform:scale(1.05);
+}
+
+.imagemPerfil{
+width:200px;
+display:block;
+margin:20px auto;
+}
+
+.volta{
+background:#222;
+padding:10px;
+border-radius:6px;
+text-align:center;
+}

@@ -10,7 +10,7 @@
 
 <div class="container">
 
-<h1>🧬 Descubra seu DNA Tecnológico</h1>
+<h1> Descubra seu DNA Tecnológico</h1>
 
 <?php
 if(isset($_COOKIE['jogador'])){
@@ -28,4 +28,5 @@ combina mais com você.
 </div>
 
 </body>
+
 </html>

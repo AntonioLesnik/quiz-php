@@ -26,7 +26,7 @@ $imagem="";
 
 if($contador["codigo"] > $contador["arte"] && $contador["codigo"] > $contador["jogos"]){
 
-$perfil="🧠 Arquiteto do Código";
+$perfil=" Arquiteto do Código";
 $imagem="img/codigo.png";
 $descricao="Você possui uma mente lógica e analítica. Resolver problemas através de programação é algo natural para você. Desenvolvedores constroem sites, aplicativos e sistemas que fazem o mundo digital funcionar.";
 
@@ -34,7 +34,7 @@ $descricao="Você possui uma mente lógica e analítica. Resolver problemas atra
 
 elseif($contador["arte"] > $contador["codigo"] && $contador["arte"] > $contador["jogos"]){
 
-$perfil="🎨 Mestre do Design";
+$perfil=" Mestre do Design";
 $imagem="img/design.png";
 $descricao="Você tem talento para criatividade e estética. Designers transformam ideias em interfaces bonitas e fáceis de usar, criando experiências incríveis para os usuários.";
 
@@ -42,7 +42,7 @@ $descricao="Você tem talento para criatividade e estética. Designers transform
 
 elseif($contador["jogos"] > $contador["codigo"]){
 
-$perfil="🎮 Criador de Games";
+$perfil=" Criador de Games";
 $imagem="img/gamer.png";
 $descricao="Você gosta de desafios e mundos virtuais. Desenvolvedores de jogos misturam programação, criatividade e diversão para criar experiências interativas.";
 
@@ -50,7 +50,7 @@ $descricao="Você gosta de desafios e mundos virtuais. Desenvolvedores de jogos 
 
 else{
 
-$perfil="🚀 Explorador da Tecnologia";
+$perfil=" Explorador da Tecnologia";
 $imagem="img/explorer.png";
 $descricao="Sua curiosidade te leva a descobrir novas tecnologias. Pessoas como você gostam de experimentar, aprender e inovar no mundo tecnológico.";
 
@@ -99,4 +99,5 @@ file_put_contents($arquivo,$total);
 </div>
 
 </body>
+
 </html>
